@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: skyblue;
+}
+
+.container {
+  background-color: #ffffff8e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.weather-data {
+  margin-top: 20px;
+}
+
+.location {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin-left: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.additional-info div {
+  text-align: left;
+}
+
+/* Стиль для контейнера прогноза на несколько дней */
+.forecast-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 120px;
+}
+
+.forecast-day img {
+  width: 50px;
+  height: 50px;
+}
